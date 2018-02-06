@@ -53,7 +53,7 @@ header .content {
 }
 
 header .logo {
-  flex: 1;  /*this is for flex-grow, flex-shrink and flex-basis */ /* CHECK THIS */
+  flex: 1;  /*this is flex-grow, flex-shrink and flex-basis. One value equals flex-grow  */
 }
 
 header nav ul {
@@ -80,7 +80,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) { /*this was 760px */
+@media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
@@ -178,7 +178,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) { /* this was 760px */
+@media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -238,6 +238,10 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+}
+
+.feature .content {
+  margin: 2rem 0;
 }
 
 .feature .image-container {
